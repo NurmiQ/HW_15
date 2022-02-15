@@ -13,5 +13,17 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="animals" uuid="646874b4-f31d-448a-b407-40aa852853e4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\NurmiQ\PycharmProjects\pythonProject\Homework\HW_15\animals.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.34.0/sqlite-jdbc-3.34.0.jar</url>
+        </library>
+      </libraries>
+    </data-source>
   </component>
 </project>
